@@ -1,0 +1,124 @@
+$light: #fff
+$haze: #fafafa
+$xhaze: darken($haze, 11%)
+$bg: #30152E
+$theme: #00AA99
+$mobile-menu-breakpoint: 769px
+$single-column-breakpoint: 42rem
+
+@mixin  content()
+  --maxWidth: 1440px
+  max-width: var(--maxWidth)
+  margin-left: auto
+  margin-right: auto
+
+@mixin viewport($width: 1024px, $margin: 25px)
+  max-width: $width
+  margin: $margin auto
+  @content
+
+@mixin shadow($opacity: 0.17)
+  box-shadow: 0 0 3rem rgba(0,0,0,$opacity)
+  &:hover
+    box-shadow: 0 0 5rem rgba(0,0,0, (1.5 * $opacity))
+
+html
+  --color-mode: 'lit'
+  --light: #C4B1A3
+  --dark: rgb(0, 0, 0)
+  --bg: #30152E
+  --haze: #30152E
+  --gray: #020202
+  --accent: var(--gray)
+  --text: var(--light)
+  --highlight: #FA8F88
+  --header-text: var(--light)
+  --font: Metropolis, sans-serif
+  --theme: #30152E
+  --ease: cubic-bezier(.19,1,.22,1)
+  --code-bg: var(--bg)
+  --table-bg: rgb(46, 87, 101)
+  --table-haze: var(--haze)
+  --table-border: #dedede
+  --footer-bg: var(--bg)
+  --shadow: rgba(0,0,0,0.12)
+  --translucent: rgba(0,0,0,0.05)
+  --translucent-light: rgb(46, 87, 101)
+  --post-bg: var(--light)
+  --choice-bg: var(--haze)
+  --ease: cubic-bezier(0.39, 0.575, 0.565, 1)
+  --easing: cubic-bezier(.19,1,.22,1)
+  --notice-code-bg: var(--bg)
+  --notice-info-border-color: #6AB0DE
+  --notice-info-background: #E7F2FA
+  --notice-note-border-color: #F0B37E
+  --notice-note-background: #FFF2DB
+  --notice-tip-border-color: rgba(92, 184, 92, 0.8)
+  --notice-tip-background: #E6F9E6
+  --notice-warning-border-color: rgba(217, 83, 79, 0.8)--translucent-light
+  --notice-warning-background: #FAE2E2
+
+  &.page
+    --choice-bg: var(--light)
+  // @mixin darkmode
+    --highlight: #FA8F88
+    --light: hsla(0,0%,100%,0.87)
+    --color-mode: 'dim'
+    --text: var(--light)
+    --accent: var(--bubble)
+    --choice-bg: var(--bg)
+    --code-bg: var(--translucent-light)
+    --header-text: var(--light)
+    --table-bg: rgb(46, 87, 101)
+    --table-haze: rgba(255,255,255,0.1)
+    --table-border: var(--code-bg)
+    --footer-bg: var(--bg)
+    --post-bg: var(--translucent-light)
+    *
+      // box-shadow: none !important
+
+  // &[data-mode="dim"]
+  //   @include darkmode
+  //   blockquote
+  //     background: var(--translucent-light)
+  //     color: #dedede
+  //   svg.icon
+  //     fill: var(--light)
+  //   .icon
+  //     img
+  //       background: none
+  //     svg
+  //       fill: #fafafa
+  //   .sidebar
+  //     &_inner
+  //       &::before
+  //         display: none
+  //   .color
+  //     &_choice
+  //       &::after
+  //         background-image: url("#{$imagesPath}night-moon.jpg")
+  //         transform: translateX(1.4rem)
+
+  // @media (prefers-color-scheme: dark)
+
+  //   &:not([data-mode="lit"])
+  //     @include darkmode
+  //     blockquote
+  //       background: var(--translucent-light)
+  //       color: #dedede
+  //     svg.icon
+  //       fill: var(--light)
+  //     .icon
+  //       img
+  //         background: none
+  //       svg
+  //         fill: #fafafa
+  //     .sidebar
+  //       &_inner
+  //         &::before
+  //           display: none
+  //     .color
+  //       &_choice
+  //         &::after
+  //           background-image: url("#{$imagesPath}night-moon.jpg")
+  //           transform: translateX(1.4rem)

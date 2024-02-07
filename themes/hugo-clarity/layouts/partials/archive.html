@@ -1,0 +1,169 @@
+{{ $pages := .Pages }}
+{{ if .IsHome }}
+{{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ end }}
+
+{{ if eq site.Params.pinFeatured true }}
+{{ $featured := default 8 site.Params.numberOfPinnedPosts }}
+{{ $featuredPosts := first $featured (where $pages "Params.featured" true)}}
+{{ $normalPosts := $pages | symdiff $featuredPosts }}
+{{ $pages = $featuredPosts | append $normalPosts }}
+{{ end }}
+
+{{ $imagesPath := printf "../%s" (default "images/" .Site.Params.imagesDir) }}
+
+
+
+
+
+<header class="header">
+
+  <div class="elements">
+
+    <div class="text">
+
+      <h1 class="tagline">Tech with Heart. Code with Purpose. <b>Join the Movement.</b></h1>
+      <p>Looking to jumpstart your career? Want to expand your network and hone your skills? Look no further than our comprehensive resource, designed specifically for ambitious individuals like yourself. From resume tips to networking events, we provide everything you need to launch your career, make valuable connections, and continuously improve your skills. Trust us as your go-to hub for professional development and growth.</p>
+      <a href="#" class="button">Become a Changemaker</a>
+    </div>
+    <img src="./images/header_1.png">
+  </div>
+  <img class="left_header design"
+    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbUhVfEo2c9YYOaoGyBDXvkSLvz6TlFH8c9jL8Dp5Da68aJpET6_sZLgZl6kCug23iVWtvIDuOBOD6Su2r7Kt1sgkzgY2nrFUnGVVha2EwV-E18FBql2iZeipeOSOAZC6wQzaJEjPWfgyCyBx9M6NqTepbhBKGNf-r90ww_OaR9p_JVdk/s1600/Simple%20White%20Modern%20Landing%20Page%20UI%20Desktop%20Prototype%20(1).png">
+
+
+</header>
+
+
+
+
+<div id="perks">
+</div>
+<br>
+
+<div class="intro_video">
+
+  <video autoplay="" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+    <source src="./videos/video.ogv" type="video/ogg" data-wf-ignore="true">
+    <source src="./videos/video.mov" type="video/mp4" data-wf-ignore="true">
+    <source src="./videos/video.webm" type="video/webm" data-wf-ignore="true">
+    <source src="./videos/video.mp4" type="video/mp4" data-wf-ignore="true">
+  </video>
+
+
+  <style>
+    ul,
+    ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  </style>
+  <div class="text">
+    <h3>🔐 Why Choose Our Course?</h3>
+    <ul>
+      <li><b class="highlight">Expert-Led Training:</b> Learn from industry professionals with hands-on experience.</li>
+      <li><b class="highlight">Real-world Scenarios:</b> Tackle practical challenges to enhance your problem-solving
+        skills.</li>
+      <li><b class="highlight">Certification Ready:</b> Gain globally recognized certifications upon course completion.
+      </li>
+      <li><b class="highlight">Interactive Learning:</b> Engage in dynamic discussions and collaborate with peers.</li>
+    </ul>
+    <a href="#" class="button">Sign Up Now</a>
+
+
+  </div>
+
+
+
+</div>
+
+
+
+<img class="accent_img_left"
+  src="./images/accent_2.png">
+
+<div class="purpose">
+  <div class="text">
+    <!-- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibsvMmIxZ8pPkqv_Ih03p0P8NqE2PnyCv0H7b7X4u9i_AH9gxeyHWAHkSgsBlSu4L5XG-T4kvLkQKjZ5Y-WI-yRQE0MEt5A1rCUaJPiispn7h-_3lvA_g2KEiTm2KD3pM8PGNBhL-rWCrG4oDxbo2bxp3SuCtGTvnNUhnC4QlyAhZRppU/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(6).png"> -->
+    <h3 class="highlight"><a>Level Up Tech: Women's Collaborative Network </a></h3>
+    <p>The Cyber Bae community empowers and celebrates women at all stages of their tech careers, from aspiring
+      professionals to seasoned executives. Our mission is to build a strong, inclusive community, provide opportunities
+      for personal growth, and inspire more women to enter the world of technology. Join us on our journey to success!
+    </p>
+  </div>
+</div>
+
+<div class="ceo">
+  <h1>Empowering Women and Minorities: Merging the Gender Disparity in IT</h1>
+  <div class="description">
+    <img
+      src="https://media.licdn.com/dms/image/D5603AQHUcviZJO_ksw/profile-displayphoto-shrink_800_800/0/1705014548965?e=1712793600&v=beta&t=14EGq-pcNC2WnAt0EHwierWbO6dVmBikqsUDpkvgrWM">
+
+    <div class="text">
+      <h3>"We allow women to create their own fate and have more control over their careers by teaching them and
+        positioning them for success."</h3>
+      <p>- <b class="">Adriana Lamb</b>, Founder of TechDebtGyal</p>
+    </div>
+  </div>
+
+</div>
+
+
+<div id="events-container">
+
+  <h1>Upcoming Events</h1>
+
+
+  <div id="event-cards"></div>
+  <div id="events-pagination"></div>
+  <img class="image"
+  src="./images/hand.png">
+
+</div>
+
+
+<div id="membership">
+
+  <div class="container">
+
+  </div>
+  <div class="text">
+    <h3>Cyber Bae is a Global Network</h3>
+    <h6 class="highlight"> The Cyber Bae Network is an esteemed community created for both established and aspiring
+      women in the field of technology.
+    </h6>
+    <p>Welcome to our thriving community of passionate freelancers, creative entrepreneurs, and savvy contractors from
+      every corner of the globe. Together, we join forces to break barriers and build a global network of innovation and
+      collaboration. Our diverse talents and perspectives ignite a powerful force for positive change and endless
+      possibilities. Join us on this journey towards limitless potential and undeniable success.
+
+
+    </p>
+    <a href="#" class="button">Explore Membership</a>
+  </div>
+
+</div>
+
+
+<div class="sponsors">
+  <h3>TechDebtGyal is Proudly Sponsored By</h3>
+  <div id="sponsor_list">
+
+  </div>
+</div>
+
+<!-- <div class="grid-inverse wrap content">
+  <div>
+    <h2><a>Blog</a></h2>
+    <ul class="posts" id="posts">
+      {{- range (.Paginate $pages).Pages }}
+      {{ partial "excerpt" . }}
+      {{- end }}
+      <li>
+        {{- template "_internal/pagination.html" . }}
+      </li>
+    </ul>
+  </div>
+  {{- partial "sidebar" . }}
+</div>  -->
