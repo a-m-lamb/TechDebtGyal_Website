@@ -26,8 +26,8 @@
 
   img
     border-radius: 50%
-    width: 280px
-    height: 250px
+    width: 15%
+    height: 15%
     shape-outside: circle()
     margin-left: 20%
     @media (max-width:629px)
@@ -102,32 +102,73 @@ h1, h2, h3, h4, h5, h6
   font-weight: bold
   opacity: 0.8
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+
+.perks
+  .button
+    
+    width: 15%
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)    
+
 #perks
   display: flex
-  height: fit-content
+  height: auto
   flex-wrap: wrap
   justify-content: space-around
-  margin-bottom: 3%
+  margin-bottom: 5%
+  margin-top: 4%
+  align-items: center
   // background-color: var(--table-bg)
   width: 75%
   border-radius: 0.5rem
   box-sizing: border-box
-  margin: 0px auto
+  margin: 5% auto 5% 
+  .accent_img
+    width: 100%
+    margin-top: 30%
+    margin-right: 50%
+  .headline
+    width: 60%
+
+
   
   img
     width: 30%
+    float: right
   .card
     // margin: 3%  
     width: 30%
-    border-right: double
-    margin-top: 3%
+    background-color: var(--table-bg)
+    margin-top: 2%
+    height: 29vh
+    padding: 3%
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)    
+    border-radius: 0.5rem
+
+    @media screen and(max-width: 625)
+      width: 100%
+  .card:hover
+    background-color: green
 
 
+    div
+      margin-top: -10%
+    h1
+      margin-bottom: -10%
+      
+
+.accent_img
+  float: left
+  position: absolute
+  z-index: -100
+  width: 100%
+  margin-left: 30%
+  // margin-top: -10%
 
 body
   overflow-x: hidden
 .to_top
   margin-bottom: 2%
+  margin-left: 6%
 .bg-landing
   background-color: $haze
   color: var(--text)
@@ -154,7 +195,7 @@ body
     display: flex
     border-radius: 0.5rem
     box-sizing: border-box
-    box-shadow: 0 1rem 3rem rgba(0,0,0,0.25)
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.9)
 
     picture
       width: 50%
@@ -178,7 +219,7 @@ body
   width: 100%
   position: absolute
   z-index: -100
-.accent_img_left
+.accent_img
   float: left
   position: absolute
   z-index: -100
@@ -422,7 +463,7 @@ body
   padding-top: 5rem
   @include content
 .purpose
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)
   margin-top: 5%
   padding: 10px
   text-align: center
