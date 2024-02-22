@@ -5,7 +5,15 @@
   border-right: 0.33rem solid transparent
   top: -0.5rem
   left: 1rem
-
+.socials 
+  cursor: pointer  !important
+  z-index: -1
+html, body
+  overflow-x: hidden !important
+  width: 100vw !important
+  position: relative !important
+  margin: 0px auto !important
+  max-width: 100% !important
 .ceo
   text-align: center
   margin-bottom: 5%
@@ -33,19 +41,26 @@
     @media (max-width:629px)
       margin: 0px auto
 
-
-
 h1, h2, h3, h4, h5, h6
   opacity: 0.8
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
 @media (max-width:629px)
+  .perks 
+    .button
+      margin: 0px 5% 4% !important
+
   #perks
     display: block !important
-    width: 100%
-
+    width: 100% !important
+    margin-bottom: 3%
+    
     .card
       border-right: none !important
       border-bottom: double !important
+      width: 100% !important
+      height: fit-content !important
+    .headline
+      width: 100% !important
 
   #events-container
     margin: 0 auto !important
@@ -61,7 +76,7 @@ h1, h2, h3, h4, h5, h6
       width: 100%
     .event-description
       width: 100% !important
-#membership
+#free_quote
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
   width: 100%
   height: auto
@@ -73,12 +88,12 @@ h1, h2, h3, h4, h5, h6
   .container
     width: 45%
     margin-right: 3%
-    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimp4HIwoRRL_puA-XHe1av2DaWNTMffadKMlTfEkFy-c3P-WY77CJI2skeP7aI4-FkaVmFKcfOSpf3LoaugjVLDbZdWQqUyo9ECX83-UERKVOVebLxMgk4QBdVfynwjn0xuNFqvDLY7F9ZXK2Cj60UkBD1-XRldXPBpgmgrVz-EYTr6cs/s1600/Blue%20Green%20and%20White%20Modern%20Tech%20Article%20Facebook%20Post%20(1).png")
+    background-position: center
+    background-image: url("../images/promotion.png")
     object-fit: cover
     @media screen and (max-width: 695px)
       width: fit-content
 
-  
   @media screen and (max-width: 695px)
     display: block
   .text
@@ -92,36 +107,37 @@ h1, h2, h3, h4, h5, h6
       margin: 0px auto
       padding-bottom: 5%
 
-
- 
-    
 .button
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)    
+  margin-top: 5%
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 .highlight
   color: var(--highlight)
-  font-weight: bold
+  font-weight: 30%
+  font-weight: 500
   opacity: 0.8
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8)
 
 .perks
   .button
-    
-    width: 15%
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)    
+    margin: 0px auto 5%
+    margin-left: 45vw
+
+.box
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7)
 
 #perks
   display: flex
   height: auto
   flex-wrap: wrap
   justify-content: space-around
-  margin-bottom: 5%
-  margin-top: 4%
+
   align-items: center
   // background-color: var(--table-bg)
   width: 75%
   border-radius: 0.5rem
   box-sizing: border-box
-  margin: 5% auto 5% 
+  margin: 0% auto 5%
+  padding: 20px
   .accent_img
     width: 100%
     margin-top: 30%
@@ -129,8 +145,6 @@ h1, h2, h3, h4, h5, h6
   .headline
     width: 60%
 
-
-  
   img
     width: 30%
     float: right
@@ -139,22 +153,24 @@ h1, h2, h3, h4, h5, h6
     width: 30%
     background-color: var(--table-bg)
     margin-top: 2%
+    text-transform: uppercase
     height: 29vh
     padding: 3%
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)
     border-radius: 0.5rem
+    cursor: pointer
+    transition: transform 0.5s
 
     @media screen and(max-width: 625)
       width: 100%
   .card:hover
-    background-color: green
-
+    background-color: #00443d
+    transform: rotateZ(10deg)
 
     div
       margin-top: -10%
     h1
       margin-bottom: -10%
-      
 
 .accent_img
   float: left
@@ -173,8 +189,12 @@ body
   background-color: $haze
   color: var(--text)
 #events-container
-  width: 70%
+  width: 75%
   margin-left: 2%
+  @media screen and(max-width: 625px)
+    width: 95%
+    margin-bottom: 3% !important
+
   button
     bottom: 100%
   .image
@@ -188,12 +208,14 @@ body
       display: none
   .event-card
     margin: 2%
+    @media screen and(max-width: 625px)
+      margin: 0px auto
     width: 90%
     padding: 2px
     padding-block: 3px
-    background: var(--table-bg)
+    border: 1px solid var(--table-bg)
+    // background: var(--table-bg)
     display: flex
-    border-radius: 0.5rem
     box-sizing: border-box
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.9)
 
@@ -241,33 +263,41 @@ body
   align-content: center
   align-items: center
   @media (max-width:629px)
-    display: block
+    // display: block
 
   .sponsor
     margin-right: 3%
     width: 30%
     img
       width: 60%
+      @media screen and(max-width:625px)
+        width: 400% !important
+        // margin-right: 0% !important
+        // margin-left: 60%
+
 .header
   // video
-  //   width: 100vw
-  //   height: 100vh
-  top: 0
+  width: 100vw
+  margin: 10% auto
+
   left: 0
   width: 100%
   height: 100vh
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
   background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbUhVfEo2c9YYOaoGyBDXvkSLvz6TlFH8c9jL8Dp5Da68aJpET6_sZLgZl6kCug23iVWtvIDuOBOD6Su2r7Kt1sgkzgY2nrFUnGVVha2EwV-E18FBql2iZeipeOSOAZC6wQzaJEjPWfgyCyBx9M6NqTepbhBKGNf-r90ww_OaR9p_JVdk/s1600/Simple%20White%20Modern%20Landing%20Page%20UI%20Desktop%20Prototype%20(1).png")
   @media (max-width:629px)
     height: auto
-  display: flex
-  flex-direction: column
-  align-items: center
-  justify-content: center
-  text-align: left
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: left
   // color: #fff
-  padding: 10px
-  margin-top: 5%
-  border-radius: 
+    padding: 10px
+    margin-top: 5%
+  border-radius:
   .elements
     display: flex
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.85)
@@ -276,27 +306,27 @@ body
     background-color: var(--table-bg)80
     // padding: 20px
     border-radius: 0.5rem
-    
+
     @media (max-width:629px)
-      width: 100%
+      width: 90%
       display: block
-      
+
       .text
         width: 100%
+        margin: 0px auto !important
       img
-        display: none        
+        display: none
     .text
       width: 70%
       margin-left: 10%
       shape-outside: circle()
-      
+
       @media (max-width:629px)
         width: 100%
 
     img
-      width: 50%
-      height: 100%
-
+      width: 40%
+      height: auto
 
   // background-repeat: no-repeat /* Prevents the background image from repeating */
   // background-size: cover /* Ensures the background image covers the entire container */
@@ -306,15 +336,13 @@ body
     .tagline
       font-size: 200%
 
-
-
   .tagline
     font-size: 250%
     margin-bottom: 1rem
     // color: white
 
     b
-      color: #FA8F88
+      color: var(--highlight)
 
   .call-to-action:hover
     background-color: #333
@@ -468,24 +496,28 @@ body
   padding: 10px
   text-align: center
   background-color: var(--table-bg)
-  width: 75%
+  width: 100%
   margin: 0px auto
   margin-bottom: 2%
-  border-radius: 0.5rem
   @media screen and (max-width: 629px)
     width: 100%
+    .text
+      width: 90%
   h3
     text-transform: uppercase
 
   .text
     // width: 70%
     margin: 0px auto
+    width: 90%
+    @media screen and (max-width: 629px)
+      width: 90%
 
 .intro_video
   display: flex
-  background-color: var(--table-bg)
-  margin-bottom: 3%
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  // background-color: var(--table-bg)
+  margin-bottom: 5%
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
   @media screen and (max-width: 629px)
     display: block
     .text
@@ -496,7 +528,7 @@ body
   .text
     margin-left: 3%
   .button
-    margin-top: 4%
+    margin: 4% auto 4%
   video
     width: 50%
     @media screen and (max-width: 629px)
@@ -511,36 +543,59 @@ body
   width: 85%
   margin-top: 10% !important
   margin: 0px auto
+
+  @media screen and (max-width: 629px)
+    .search_field
+      margin-right: 10%
+
   .search
-    width: 100% !important
+    width: 100vw !important
     @media screen and (max-width: 629px)
       border-bottom: none
+      width: 80vw !important
   @media screen and (max-width: 629px)
     width: 100%
   .elements
     display: flex
     width: 100vw
 
-    @media screen and (max-width: 629px)
-      display: block
-      margin: 0px auto !important
-
-    div
+    .connect
+      width: 25% !important
+      @media screen and (max-width: 629px)
+        width: 100vw
+        border-bottom: double
       .socials
         display: inline-flex
-        width: 100%
+        width: 100vw
         position: relative
-        border-bottom: none
+        cursor: pointer  !important
+        // border-bottom: none
+        @media screen and (max-width: 629px)
+          width: 100vw
         i
           position: absolute
           top: 50%
           transform: translateY(-50%)
-        p 
-          margin-left: 7%
-      width: 20%
+        p
+          margin-left: 2%
+          @media screen and (max-width: 629px)
+            margin-left: 5%
+
+    .col
+      width: 18%
+
+      .search_field
+        width: 60%
+        margin-right: 50%
+
       @media screen and (max-width: 629px)
-        width: 100%
+        width: 100vw
         border-bottom: double
+
+    @media screen and (max-width: 629px)
+      display: block
+      margin: 0px auto !important
+
   &_inner
     @include content
     display: grid
@@ -592,13 +647,66 @@ body
 
 .posts
   display: flex
-  align-items: flex-start
-  @media screen and(max-width: 667px)
-    display: block
+  flex-wrap: wrap
+  width: 100vw
+  margin: 10% auto 2% !important
+  align-items: stretch
+  justify-content: center
+  flex-direction: row
+  h1
+    font-weight: bolder
+  .post_item
+    min-width: 28%
+    max-width: 28%
+    margin: 3% auto 3%
+    box-sizing: border-box
+    border: 1px solid var(--text)
+    background-color: transparent
+    border-radius: 0
+    margin-bottom: 0px
+    flex: 1
+    margin-right: 5%
 
+    h3
+      color: var(--highlight)
+    @media screen and (max-width: 667px)
+      min-width: 100%
+
+  @media screen and (max-width: 667px)
+    margin-top: 20% !important
+
+  .featured
+    width: 60% !important
+    margin-right: 3%
+    .post_item
+      max-width: 100% !important
+
+    @media screen and (max-width: 667px)
+      min-width: 100%
+      margin-left: 0%
+      .post-item
+        max-width: 100% !important
+
+    // border-right: double
+    .post_item
+      width: 100%
+      // border-top: none !important
+
+  .post_item
+    width: 35%
+    box-sizing: border-box
+    border: 1px solid var(--text)
+    background-color: transparent
+    border-radius: 0
+    margin-bottom: 0px
+    flex: 1
+    margin-right: 5%
+
+    @media screen and (max-width: 667px)
+      width: 100%
 .post
   .excerpt_thumbnail
-    width: 30%
+    min-width: 100%
   &_link, &_title
     margin-bottom: 0
   &_link
@@ -811,6 +919,8 @@ body
 .link
   opacity: 0
   position: relative
+  cursor: pointer
+
   &_owner
     .icon
       background-image: url('#{$iconsPath}link.svg')
@@ -1034,6 +1144,7 @@ figcaption
     margin-right: auto !important
   &_thumbnail
     margin: 0
+    min-width: 100%
 
 .video
   overflow: hidden

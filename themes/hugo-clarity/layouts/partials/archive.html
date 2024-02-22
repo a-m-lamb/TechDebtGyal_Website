@@ -11,9 +11,11 @@
 {{ end }}
 
 {{ $imagesPath := printf "../%s" (default "images/" .Site.Params.imagesDir) }}
+{{ $url := printf "%stags/" .Site.BaseURL }}
 
 
 
+{{ if not (and (strings.HasPrefix .Page.Permalink $url) (strings.HasSuffix .Page.Permalink "/")) }}
 
 
 <header class="header">
@@ -23,20 +25,18 @@
     <div class="text">
 
       <h1 class="tagline">Marketing that moves. Growth that thrills.
-        <b>Propel Your Brand Today!</b>
+        <b>Get started today with a free quote!</b>
       </h1>
       <p>Our technical marketing service combines cutting-edge digital strategies with deep technical expertise to
         elevate your product's visibility and drive growth. From targeted SEO optimizations to compelling content
         creation, we harness the power of technology to connect your brand with the right audience, maximize
         conversions, and propel your business forward in the digital landscape. Partner with us to unlock new
         opportunities and achieve your marketing objectives with confidence.</p>
-      <a href="#" class="button">Become a Changemaker</a>
+      <a href="/services" class="button">Boost Your Digital Brand Today!</a>
     </div>
     <img src="./images/header_1.png">
   </div>
-  <img class="left_header design"
-    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbUhVfEo2c9YYOaoGyBDXvkSLvz6TlFH8c9jL8Dp5Da68aJpET6_sZLgZl6kCug23iVWtvIDuOBOD6Su2r7Kt1sgkzgY2nrFUnGVVha2EwV-E18FBql2iZeipeOSOAZC6wQzaJEjPWfgyCyBx9M6NqTepbhBKGNf-r90ww_OaR9p_JVdk/s1600/Simple%20White%20Modern%20Landing%20Page%20UI%20Desktop%20Prototype%20(1).png">
-
+ 
 
 </header>
 
@@ -57,13 +57,13 @@
       </p>
     </div>
   </div>
-  <a class="button">Learn More</a>
+  <a class="button box" href="/services">Learn More</a>
 </div>
 
 <div class="intro_video">
 
   <video autoplay="" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-    <source src="./videos/video.ogv" type="video/ogg" data-wf-ignore="true">
+    <!-- <source src="./videos/video.ogv" type="video/ogg" data-wf-ignore="true"> -->
     <source src="./videos/video.mov" type="video/mp4" data-wf-ignore="true">
     <source src="./videos/video.webm" type="video/webm" data-wf-ignore="true">
     <source src="./videos/video.mp4" type="video/mp4" data-wf-ignore="true">
@@ -79,16 +79,16 @@
     }
   </style>
   <div class="text">
-    <h3>🔐 Why Choose Our Course?</h3>
+    <h1>🔐 Why Choose the Tech Debt Crew?</h3>
     <ul>
-      <li><b class="highlight">Expert-Led Training:</b> Learn from industry professionals with hands-on experience.</li>
-      <li><b class="highlight">Real-world Scenarios:</b> Tackle practical challenges to enhance your problem-solving
+      <li><b class="highlight"><h2>Technical SEO audit:</h2></b> Learn from industry professionals with hands-on experience.</li>
+      <li><b class="highlight"><h2>Content creation:</h2> </b> Tackle practical challenges to enhance your problem-solving
         skills.</li>
-      <li><b class="highlight">Certification Ready:</b> Gain globally recognized certifications upon course completion.
+      <li><b class="highlight"><h2>Web development:</h2> </b> Gain globally recognized certifications upon course completion.
       </li>
-      <li><b class="highlight">Interactive Learning:</b> Engage in dynamic discussions and collaborate with peers.</li>
+      <li><b class="highlight"><h2>Graphic design:</h2></b> Engage in dynamic discussions and collaborate with peers.</li>
     </ul>
-    <a href="#" class="button">Sign Up Now</a>
+    <!-- <a href="#" class="button">Get Your Free Quote Today!</a> -->
 
 
   </div>
@@ -104,33 +104,16 @@
 <div class="purpose">
   <div class="text">
     <!-- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibsvMmIxZ8pPkqv_Ih03p0P8NqE2PnyCv0H7b7X4u9i_AH9gxeyHWAHkSgsBlSu4L5XG-T4kvLkQKjZ5Y-WI-yRQE0MEt5A1rCUaJPiispn7h-_3lvA_g2KEiTm2KD3pM8PGNBhL-rWCrG4oDxbo2bxp3SuCtGTvnNUhnC4QlyAhZRppU/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(6).png"> -->
-    <h3 class="highlight"><a>Level Up Tech: Women's Collaborative Network </a></h3>
-    <p>The Cyber Bae community empowers and celebrates women at all stages of their tech careers, from aspiring
-      professionals to seasoned executives. Our mission is to build a strong, inclusive community, provide opportunities
-      for personal growth, and inspire more women to enter the world of technology. Join us on our journey to success!
-    </p>
+    <h1 class=""><a>Level Up Tech: A Solutions-Focused Technical Marketing Service Provider </a></h1>
+    <h5>At Tech Debt Crew, our mission is to revolutionize the way businesses approach marketing by integrating advanced technology and innovative strategies. We strive to bridge the gap between traditional marketing and the digital frontier, ensuring our clients not only keep pace but lead the charge in their respective industries. Our commitment is to provide unparalleled service, actionable insights, and tangible results, turning marketing investments into measurable growth.
+    </h5>
   </div>
-</div>
-
-<div class="ceo">
-  <h1>Empowering Women and Minorities: Merging the Gender Disparity in IT</h1>
-  <div class="description">
-    <img
-      src="https://media.licdn.com/dms/image/D5603AQHUcviZJO_ksw/profile-displayphoto-shrink_800_800/0/1705014548965?e=1712793600&v=beta&t=14EGq-pcNC2WnAt0EHwierWbO6dVmBikqsUDpkvgrWM">
-
-    <div class="text">
-      <h3>"We allow women to create their own fate and have more control over their careers by teaching them and
-        positioning them for success."</h3>
-      <p>- <b class="">Adriana Lamb</b>, Founder of TechDebtGyal</p>
-    </div>
-  </div>
-
 </div>
 
 
 <div id="events-container">
 
-  <h1>Upcoming Events</h1>
+  <h1>Community Outreach:</h1>
 
 
   <div id="event-cards"></div>
@@ -140,37 +123,39 @@
 </div>
 
 
-<div id="membership">
+<div id="free_quote">
 
   <div class="container">
 
   </div>
-  <div class="text">
-    <h3>Cyber Bae is a Global Network</h3>
-    <h6 class="highlight"> The Cyber Bae Network is an esteemed community created for both established and aspiring
-      women in the field of technology.
-    </h6>
-    <p>Welcome to our thriving community of passionate freelancers, creative entrepreneurs, and savvy contractors from
-      every corner of the globe. Together, we join forces to break barriers and build a global network of innovation and
-      collaboration. Our diverse talents and perspectives ignite a powerful force for positive change and endless
-      possibilities. Join us on this journey towards limitless potential and undeniable success.
+  <div class="text ">
+    <h1 class="highlight">Unlock Growth with Expert Marketing Strategies from Tech Debt Crew</h1>
+    <h5 > 
+      Empower Your Business with Customized Marketing Solutions Tailored to Your Goals
+    </h5>
+    <h8>
+      At Tech Debt Crew, we specialize in crafting bespoke marketing strategies that resonate with your audience and drive growth. From comprehensive digital campaigns to targeted SEO tactics, we're here to amplify your brand's presence in the digital landscape. Take the first step towards transformative marketing success by scheduling your complimentary consultation with our experts today.
 
-
-    </p>
-    <a href="#" class="button">Explore Membership</a>
+    </h8>
+    <a href="https://calendly.com/techdebtcrew/30min" class="button">Schedule Your Free Consultation</a>
   </div>
 
 </div>
 
 
 <div class="sponsors">
-  <h3>TechDebtGyal is Proudly Sponsored By</h3>
+  <h3>TechDebtCrew is Proudly Sponsored By</h3>
   <div id="sponsor_list">
 
   </div>
 </div>
 
-<!-- <div class="grid-inverse wrap content">
+{{- end}}
+
+{{- if and (strings.HasPrefix .Page.Permalink ($url) ) (strings.HasSuffix .Page.Permalink "/") }}
+
+
+<div class="grid-inverse wrap content">
   <div>
     <h2><a>Blog</a></h2>
     <ul class="posts" id="posts">
@@ -182,5 +167,6 @@
       </li>
     </ul>
   </div>
-  {{- partial "sidebar" . }}
-</div>  -->
+</div> 
+
+{{- end}}
