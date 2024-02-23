@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6
     background-image: url("../images/promotion.png")
     object-fit: cover
     @media screen and (max-width: 695px)
-      width: fit-content
+      width: 100%
 
   @media screen and (max-width: 695px)
     display: block
@@ -142,6 +142,8 @@ h1, h2, h3, h4, h5, h6
   box-sizing: border-box
   margin: 0% auto 5%
   padding: 20px
+  @media screen and (min-width: 700px) and (max-width: 1300px)
+    width: 90%
   .accent_img
     width: 100%
     margin-top: 30%
@@ -282,7 +284,12 @@ body
 .header
   // video
   width: 100vw
-  margin: 10% auto
+
+  @media screen and (min-width: 700px) and (max-width: 1300px)
+    height: fit-content
+   
+    
+  margin: 10% auto 0%
 
   left: 0
   width: 100%
@@ -311,6 +318,7 @@ body
     // padding: 20px
     border-radius: 0.5rem
 
+
     @media (max-width:629px)
       width: 90%
       display: block
@@ -329,8 +337,10 @@ body
         width: 100%
 
     img
-      width: 40%
+      width: 30%     
       height: auto
+      @media screen and (min-width: 700px) and (max-width: 1300px)
+        display: none !important
 
   // background-repeat: no-repeat /* Prevents the background image from repeating */
   // background-size: cover /* Ensures the background image covers the entire container */
@@ -343,6 +353,8 @@ body
   .tagline
     font-size: 250%
     margin-bottom: 1rem
+    .button
+      margin: 0
     // color: white
 
     b
