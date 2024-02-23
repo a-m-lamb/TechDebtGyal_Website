@@ -45,15 +45,15 @@ weight = -107
 [[social]]
 name = "github"
 type = "social"
-url = "https://github.com/#"
+url = "https://github.com/a-m-lamb"
 weight = 1
 [[social]]
-name = "twitter"
-url = "https://twitter.com/#"
+name = "facebook"
+url = "https://www.facebook.com/techygal/"
 weight = 2
 [[social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/#"
+url = "https://www.linkedin.com/in/adriana-l-938a51146/"
 weight = 3
 
 
