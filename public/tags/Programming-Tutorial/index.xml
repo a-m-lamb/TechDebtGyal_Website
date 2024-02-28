@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Tutorial on TechDebtGyal</title>
+    <link>//localhost:1313/tags/Programming-Tutorial/</link>
+    <description>Recent content in Programming Tutorial on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 16 Aug 2023 06:27:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/Programming-Tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Unleash the Power of Google Apps Script: Elevate Your Data Game</title>
+      <link>//localhost:1313/2023/08/unleash-power-of-google-apps-script.html</link>
+      <pubDate>Wed, 16 Aug 2023 06:27:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/08/unleash-power-of-google-apps-script.html</guid>
+      <description>Have you ever found yourself wrestling with Google Sheets, trying to organize and manipulate data to meet your specific needs? The world of programming isn&#39;t limited to lines of code and algorithms; it&#39;s a gateway to enhancing efficiency and innovation across diverse professions. While many people are familiar with writing custom functions for Excel, did you know that you can also achieve this level of customization with Google Sheets? Welcome to the world of Google Apps Script – an extension of Google Sheets that empowers you to create tailored custom functions and unlock a realm of possibilities.</description>
+    </item>
+    <item>
+      <title>Beginner&#39;s Guide: HTML, CSS, and JavaScript Tutorial for Building Web Pages</title>
+      <link>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</link>
+      <pubDate>Thu, 08 Jun 2023 14:12:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</guid>
+      <description>In the modern, tech-savvy world we live in, having an understanding of HTML, CSS, and JavaScript is essential for crafting web pages or pursuing a career in web development. This tutorial offers a detailed overview of these core technologies, designed to help those with limited knowledge or experience in HTML. So, let&#39;s dive in and explore!&#xA;Installations: So personally, I prefer to customize my html components on my own personal server, so everyone isn&#39;t looking at each change I make on the web.</description>
+    </item>
+    <item>
+      <title>Unlock the Power of Localstack: Testing Terraform Cloud Resources on Your Local Machine</title>
+      <link>//localhost:1313/2023/05/unlock-power-of-localstack-testing.html</link>
+      <pubDate>Sun, 07 May 2023 08:32:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/05/unlock-power-of-localstack-testing.html</guid>
+      <description>The idea of using Terraform to manage cloud infrastructure has gained popularity in the tech industry. It enables developers to use a single configuration language to describe and provision resources across multiple cloud providers -- a time-saving measure that makes it easier to support multiple regions and cloud environments from a single platform.&#xA;But while Terraform provides a robust solution for streamlining the process of setting up and managing cloud resources, testing components of the setup is often neglected.</description>
+    </item>
+    <item>
+      <title>A Step-by-Step Guide for Building a Bot with Go (Part 1)</title>
+      <link>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</link>
+      <pubDate>Wed, 03 May 2023 18:25:00 -0700</pubDate>
+      <guid>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</guid>
+      <description>When I was just starting out in programming, I wanted to work on projects that were more stimulating. My approach to learning was to craft projects that made technology relevant and exciting for me. Reading books and taking courses will only get you so far; the rest is all self-driven. This is how bots and data scraping caught my attention. Programming became more than a job - it became an art form.</description>
+    </item>
+    <item>
+      <title>Exploring OpenAI —Will AI Kick us Out of the Job? </title>
+      <link>//localhost:1313/2023/03/exploring-openai-will-ai-kick-us-out-of.html</link>
+      <pubDate>Tue, 21 Mar 2023 12:14:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/03/exploring-openai-will-ai-kick-us-out-of.html</guid>
+      <description>As the demand for programmers with a deep understanding of business needs grows, one may ponder if AI could take the place of many jobs requiring programming-- yielding more efficient code in a much shorter amount of time than humans are capable of.&#xA;I noticed this while I was having a discussion with a prospective employer. At the time, I wasn&#39;t on the hunt for something new, but it helps to freshen up your resume and evaluate yourself against the current industry standard.</description>
+    </item>
+    <item>
+      <title>Diving into the Dependency Forest with Golang</title>
+      <link>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</link>
+      <pubDate>Wed, 08 Mar 2023 06:50:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</guid>
+      <description>So, this is the first post of what I foresee to be an entire chapter of working with Go as it relates to remediating vulnerabilities. This particular post will focus on patching vulnerabilities related to Software Composition Analysis- an important task to perform regularly in order to avoid a lot of technical debt later on (Seriously, Handle it now!).&#xA;Programs are made up of numerous components--elements that can go unnoticed because many developers carelessly import dependencies without being aware of vulnerabilities that might exist within them.</description>
+    </item>
+    <item>
+      <title>Walkthrough Of Golang Structs</title>
+      <link>//localhost:1313/2023/03/walkthrough-of-golang-structs.html</link>
+      <pubDate>Thu, 02 Mar 2023 15:39:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/03/walkthrough-of-golang-structs.html</guid>
+      <description>Structs in Go programming are quite straightforward. You could liken them to Java model classes, but much simpler. Structs are used to represent physical or conceptual elements in the real world, they can be linked to one another, and they are not as lengthy as Java model classes...&#xA;Take a glance at this example of some java model classes. We have a student class and an address class. As can be seen, there is a lot of work packed into this code -- numerous lines that could be condensed when compared to Python, Go, and JavaScript.</description>
+    </item>
+    <item>
+      <title>Understanding Idempotency – A Newbies Guide to Secure Development</title>
+      <link>//localhost:1313/2023/02/understanding-idempotency-newbies-guide.html</link>
+      <pubDate>Fri, 24 Feb 2023 07:22:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/02/understanding-idempotency-newbies-guide.html</guid>
+      <description>The concept of idempotency will creep up regularly in your programming career, so it&#39;s essential to understand what it is and the significance. Plenty of programmers have passively heard the term--and may have even dropped it from time to time themselves--but many still have little to no idea as to what it means.&#xA;Idempotency encompasses a peculiar notion: no matter how many times something is repeated, the result is always the same.</description>
+    </item>
+  </channel>
+</rss>

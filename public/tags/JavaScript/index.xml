@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on TechDebtGyal</title>
+    <link>//localhost:1313/tags/JavaScript/</link>
+    <description>Recent content in JavaScript on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 16 Aug 2023 06:27:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/JavaScript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Unleash the Power of Google Apps Script: Elevate Your Data Game</title>
+      <link>//localhost:1313/2023/08/unleash-power-of-google-apps-script.html</link>
+      <pubDate>Wed, 16 Aug 2023 06:27:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/08/unleash-power-of-google-apps-script.html</guid>
+      <description>Have you ever found yourself wrestling with Google Sheets, trying to organize and manipulate data to meet your specific needs? The world of programming isn&#39;t limited to lines of code and algorithms; it&#39;s a gateway to enhancing efficiency and innovation across diverse professions. While many people are familiar with writing custom functions for Excel, did you know that you can also achieve this level of customization with Google Sheets? Welcome to the world of Google Apps Script – an extension of Google Sheets that empowers you to create tailored custom functions and unlock a realm of possibilities.</description>
+    </item>
+    <item>
+      <title>Navigating the JavaScript Developer Overflow: Exploring Opportunities in an Oversaturated Tech Industry</title>
+      <link>//localhost:1313/2023/07/navigating-javascript-developer.html</link>
+      <pubDate>Mon, 10 Jul 2023 05:00:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/07/navigating-javascript-developer.html</guid>
+      <description>Navigating the JavaScript Developer Overflow: Exploring Opportunities in an Oversaturated Tech Industry&#xD;It&#39;s not just you... There&#39;s an oversaturation of JavaScript developers in the market. The tech industry is experiencing an overflow of web developers, particularly in the realm of JavaScript. While JavaScript remains a powerhouse language, the saturation of JavaScript developers has prompted aspiring tech professionals to consider alternative programming languages as a means to stand out in a crowded market.</description>
+    </item>
+    <item>
+      <title>Beginner&#39;s Guide: HTML, CSS, and JavaScript Tutorial for Building Web Pages</title>
+      <link>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</link>
+      <pubDate>Thu, 08 Jun 2023 14:12:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</guid>
+      <description>In the modern, tech-savvy world we live in, having an understanding of HTML, CSS, and JavaScript is essential for crafting web pages or pursuing a career in web development. This tutorial offers a detailed overview of these core technologies, designed to help those with limited knowledge or experience in HTML. So, let&#39;s dive in and explore!&#xA;Installations: So personally, I prefer to customize my html components on my own personal server, so everyone isn&#39;t looking at each change I make on the web.</description>
+    </item>
+  </channel>
+</rss>

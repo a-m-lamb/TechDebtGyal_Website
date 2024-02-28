@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on TechDebtGyal</title>
+    <link>//localhost:1313/tags/go/</link>
+    <description>Recent content in Go on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Jun 2023 15:51:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unleashing the Potential of Hugo: A Dynamic Go-Based Tool for Web Applications</title>
+      <link>//localhost:1313/2023/06/unleashing-potential-of-hugo-dynamic-go.html</link>
+      <pubDate>Mon, 12 Jun 2023 15:51:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/unleashing-potential-of-hugo-dynamic-go.html</guid>
+      <description>Hugo&#xD;The web development framework Hugo isn&#39;t well-known, but it&#39;s a powerful alternative to Angular or React. Backed by the Go programming language, Hugo grants developers dynamic abilities for building sites and apps.&#xA;My interest in Hugo began because: one, I&#39;m curious about learning new technologies; and two, I&#39;m not quite sure why developers, who are simply creating content-focused websites, choose to use Angular or React over Hugo.&#xA;Surely, having a website that is created in real-time is too complex and leads to slower load speeds than websites made with static elements.</description>
+    </item>
+    <item>
+      <title>A Step-by-Step Guide for Building a Bot with Go (Part 1)</title>
+      <link>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</link>
+      <pubDate>Wed, 03 May 2023 18:25:00 -0700</pubDate>
+      <guid>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</guid>
+      <description>When I was just starting out in programming, I wanted to work on projects that were more stimulating. My approach to learning was to craft projects that made technology relevant and exciting for me. Reading books and taking courses will only get you so far; the rest is all self-driven. This is how bots and data scraping caught my attention. Programming became more than a job - it became an art form.</description>
+    </item>
+    <item>
+      <title>Diving into the Dependency Forest with Golang</title>
+      <link>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</link>
+      <pubDate>Wed, 08 Mar 2023 06:50:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</guid>
+      <description>So, this is the first post of what I foresee to be an entire chapter of working with Go as it relates to remediating vulnerabilities. This particular post will focus on patching vulnerabilities related to Software Composition Analysis- an important task to perform regularly in order to avoid a lot of technical debt later on (Seriously, Handle it now!).&#xA;Programs are made up of numerous components--elements that can go unnoticed because many developers carelessly import dependencies without being aware of vulnerabilities that might exist within them.</description>
+    </item>
+    <item>
+      <title>Walkthrough Of Golang Structs</title>
+      <link>//localhost:1313/2023/03/walkthrough-of-golang-structs.html</link>
+      <pubDate>Thu, 02 Mar 2023 15:39:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/03/walkthrough-of-golang-structs.html</guid>
+      <description>Structs in Go programming are quite straightforward. You could liken them to Java model classes, but much simpler. Structs are used to represent physical or conceptual elements in the real world, they can be linked to one another, and they are not as lengthy as Java model classes...&#xA;Take a glance at this example of some java model classes. We have a student class and an address class. As can be seen, there is a lot of work packed into this code -- numerous lines that could be condensed when compared to Python, Go, and JavaScript.</description>
+    </item>
+  </channel>
+</rss>

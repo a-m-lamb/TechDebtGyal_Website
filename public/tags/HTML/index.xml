@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on TechDebtGyal</title>
+    <link>//localhost:1313/tags/HTML/</link>
+    <description>Recent content in HTML on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 08 Jun 2023 14:12:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/HTML/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginner&#39;s Guide: HTML, CSS, and JavaScript Tutorial for Building Web Pages</title>
+      <link>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</link>
+      <pubDate>Thu, 08 Jun 2023 14:12:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</guid>
+      <description>In the modern, tech-savvy world we live in, having an understanding of HTML, CSS, and JavaScript is essential for crafting web pages or pursuing a career in web development. This tutorial offers a detailed overview of these core technologies, designed to help those with limited knowledge or experience in HTML. So, let&#39;s dive in and explore!&#xA;Installations: So personally, I prefer to customize my html components on my own personal server, so everyone isn&#39;t looking at each change I make on the web.</description>
+    </item>
+  </channel>
+</rss>

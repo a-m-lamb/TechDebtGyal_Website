@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flashcards on TechDebtGyal</title>
+    <link>//localhost:1313/tags/Flashcards/</link>
+    <description>Recent content in Flashcards on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 25 Apr 2023 23:14:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/Flashcards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> AWS Cloud Computing(Flashcards)</title>
+      <link>//localhost:1313/2023/04/aws-cloud-computing.html</link>
+      <pubDate>Tue, 25 Apr 2023 23:14:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/04/aws-cloud-computing.html</guid>
+      <description>Take a look at these notes I put together when I first got started with AWS technologies. They could help you out in your next interview!</description>
+    </item>
+  </channel>
+</rss>

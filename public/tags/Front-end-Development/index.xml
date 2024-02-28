@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front-End Development on TechDebtGyal</title>
+    <link>//localhost:1313/tags/Front-end-Development/</link>
+    <description>Recent content in Front-End Development on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Aug 2023 04:30:00 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/Front-end-Development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigating the Complex Landscape of the Current Job Market: Insights from a Tech Consultant 🌪️📉</title>
+      <link>//localhost:1313/2023/08/navigating-complex-landscape-of-current.html</link>
+      <pubDate>Fri, 11 Aug 2023 04:30:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/08/navigating-complex-landscape-of-current.html</guid>
+      <description>The Market is Wonky&#xD;In the dynamic realm of job hunting, the past few months have unveiled a whirlwind of change, leaving professionals across industries contemplating the direction of the market. As a tech consultant, I&#39;ve had a front-row seat to observe the unfolding shifts within the tech job landscape, providing a unique perspective on the evolving state of affairs.&#xA;Amidst a cacophony of voices, it becomes evident that the job market is experiencing a period of uncertainty and transformation.</description>
+    </item>
+    <item>
+      <title> Mastering the Art of CSS: Demystifying Front-End Design</title>
+      <link>//localhost:1313/2023/08/mastering-art-of-css-demystifying-front.html</link>
+      <pubDate>Thu, 10 Aug 2023 08:09:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/08/mastering-art-of-css-demystifying-front.html</guid>
+      <description>![&amp;quot;Elevate Your Web Creations: CSS Mastery for Mesmerizing Front-End Design&amp;quot;](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhix0BzxYSVlGE823eEZ2m0csHz-d8oDf9OO4xbWP-xdHCNiPZobTFEmbBgGyOAojD7wgjUI-BJqwjzoTlxIEc6yaQPnlk5bD2aHSq16jz6DQfZQknLYEL0AvuFelOfMtlL8ndkORNFTLnOdB9byO2vp1zHJfGl4uRwZvEbhO3acMSHb9iEeEBM35lmb5yl/w640-h640/Simple%20Organic%20Blog%20Post%20Instagram%20Template%202.png &amp;quot;&amp;quot;Elevate Your Web Creations: CSS Mastery for Mesmerizing Front-End Design&amp;quot;&amp;quot;)&#xA;In the world of web development, HTML and JavaScript often steal the spotlight. HTML, with its structured tags, provides the foundation of web content, while JavaScript adds interactivity and dynamic behavior to websites. Yet, there&#39;s one crucial player that often remains in the shadows, silently shaping the visual appeal and layout of web pages - Cascading Style Sheets, or CSS.</description>
+    </item>
+    <item>
+      <title>Navigating the JavaScript Developer Overflow: Exploring Opportunities in an Oversaturated Tech Industry</title>
+      <link>//localhost:1313/2023/07/navigating-javascript-developer.html</link>
+      <pubDate>Mon, 10 Jul 2023 05:00:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/07/navigating-javascript-developer.html</guid>
+      <description>Navigating the JavaScript Developer Overflow: Exploring Opportunities in an Oversaturated Tech Industry&#xD;It&#39;s not just you... There&#39;s an oversaturation of JavaScript developers in the market. The tech industry is experiencing an overflow of web developers, particularly in the realm of JavaScript. While JavaScript remains a powerhouse language, the saturation of JavaScript developers has prompted aspiring tech professionals to consider alternative programming languages as a means to stand out in a crowded market.</description>
+    </item>
+    <item>
+      <title>Unleashing the Potential of Hugo: A Dynamic Go-Based Tool for Web Applications</title>
+      <link>//localhost:1313/2023/06/unleashing-potential-of-hugo-dynamic-go.html</link>
+      <pubDate>Mon, 12 Jun 2023 15:51:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/unleashing-potential-of-hugo-dynamic-go.html</guid>
+      <description>Hugo&#xD;The web development framework Hugo isn&#39;t well-known, but it&#39;s a powerful alternative to Angular or React. Backed by the Go programming language, Hugo grants developers dynamic abilities for building sites and apps.&#xA;My interest in Hugo began because: one, I&#39;m curious about learning new technologies; and two, I&#39;m not quite sure why developers, who are simply creating content-focused websites, choose to use Angular or React over Hugo.&#xA;Surely, having a website that is created in real-time is too complex and leads to slower load speeds than websites made with static elements.</description>
+    </item>
+    <item>
+      <title>Beginner&#39;s Guide: HTML, CSS, and JavaScript Tutorial for Building Web Pages</title>
+      <link>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</link>
+      <pubDate>Thu, 08 Jun 2023 14:12:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</guid>
+      <description>In the modern, tech-savvy world we live in, having an understanding of HTML, CSS, and JavaScript is essential for crafting web pages or pursuing a career in web development. This tutorial offers a detailed overview of these core technologies, designed to help those with limited knowledge or experience in HTML. So, let&#39;s dive in and explore!&#xA;Installations: So personally, I prefer to customize my html components on my own personal server, so everyone isn&#39;t looking at each change I make on the web.</description>
+    </item>
+  </channel>
+</rss>

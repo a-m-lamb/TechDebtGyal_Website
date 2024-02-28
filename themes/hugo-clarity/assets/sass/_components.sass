@@ -12,7 +12,7 @@
 
 html, body
   overflow-x: hidden !important
-  width: 100vw !important
+  width: var(--max-width) !important
   position: relative !important
   margin: 0px auto !important
   max-width: 100% !important
@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6
     .event-card
       display: block !important
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+        
     .date
       margin-right: 10%
       line-height: 1
@@ -230,7 +231,7 @@ body
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.9)
 
     picture
-      width: 50%
+      width: 30%
       margin-right: 2%
     .button
       height: 2%
@@ -242,11 +243,10 @@ body
       width: 75%
 
     .date
+      display: flex
+      flex-direction: column
       width: 5%
-      margin-right: 5%
-      margin-left: 2%
-      h3
-        margin-bottom: -50%
+      margin: 0px auto
 .left_header
   width: 100%
   position: absolute
@@ -507,10 +507,18 @@ body
 
 .content, .footer
   padding: 1.5rem
+  margin: 0px auto
+  align-items: center
+  justify-content: center
+  div
+    align-items: center
   @media screen and (min-width: 1441px)
     padding: 1.5rem 0
 .grid-inverse
-  margin-top: -5%
+  right: 50vw
+  align-items: center
+  justify-content: center
+
 .content
   padding-top: 5rem
   @include content
@@ -559,86 +567,38 @@ body
       width: 100%
 
 .footer
-  // border-top: 1px solid $xhaze
-  // background: var(--footer-bg)
-  margin-top: 2rem
-  font-size: 0.9rem
-  border-top: double
-  width: 85%
-  margin-top: 10% !important
-  margin: 0px auto
-
-  p:hover
-    color: var(--highlight)
-
-  @media screen and (max-width: 629px)
-    .search_field
-      margin-right: 10%
-
-  .search
-    width: 100vw !important
-    @media screen and (max-width: 629px)
-      border-bottom: none
-      width: 80vw !important
-  @media screen and (max-width: 629px)
+  width: 100%; 
+  max-width: var(--max-width)
+  .footer_inner 
     width: 100%
-  .elements
-    display: flex
-    width: 100vw
-    @media screen and (max-width: 625px)
-      display: block !important
+    .elements
+      display: flex 
+      width: 95%
+      margin: 0px auto
 
-    .connect
-      width: 25% !important
-      @media screen and (max-width: 629px)
-        width: 100vw !important
-        border-bottom: double
-      .socials
-        display: inline-flex
-        // width: 100vw
-        position: relative
-        cursor: pointer  !important
-        // border-bottom: none
-        @media screen and (max-width: 629px)
+      @media screen and(max-width: 625px)
+        display: block !important
+        width: 100% !important
+
+        .col
           width: 100% !important
-          display: block
+          max-height: none !important
+          min-height: auto !important
+          margin-bottom: 5% !important
 
-          p
-            width: 100% !important
-        i
-          position: absolute
-          top: 50%
-          transform: translateY(-50%)
-        p
-          z-index: 2000 !important
-          margin-left: 8%
-         
-          @media screen and (max-width: 629px)
-            margin-left: 10%
-            width: 100%
 
-    .col
-      width: 18%
+      .col
+        flex-grow: 1
+        max-height: 50vh
+        min-height: 50vh
+        width: 30%
 
-      .search_field
-        width: 60%
-        margin-right: 50%
-
-      @media screen and (max-width: 629px)
-        width: 100vw
-        border-bottom: double
-
-    @media screen and (max-width: 629px)
-      display: block
-      margin: 0px auto !important
-
-  &_inner
-    @include content
-    display: grid
-    grid-template-columns: 4rem 1fr
-    align-items: center
-    position: relative
-
+        .socials
+          display: flex
+          width: 100% !important
+          text-align: right
+          i
+            margin-right: 3%
 .button
   background-color: $theme
   color: $light
@@ -684,24 +644,20 @@ body
 .posts
   display: flex
   flex-wrap: wrap
+  width: var(--max-width)
   width: 100vw
-  margin: 10% auto 2% !important
-  align-items: stretch
-  justify-content: center
-  flex-direction: row
+  max-width: 2212px
+  margin: 0px auto
+  
+
   h1
     font-weight: bolder
   .post_item
     min-width: 28%
     max-width: 28%
-    margin: 3% auto 3%
     box-sizing: border-box
     border: 1px solid var(--text)
-    background-color: transparent
-    border-radius: 0
-    margin-bottom: 0px
-    flex: 1
-    margin-right: 5%
+    flex: 1 0 auto
 
     h3
       color: var(--highlight)
@@ -737,7 +693,7 @@ body
     border-radius: 0
     margin-bottom: 0px
     flex: 1
-    margin-right: 5%
+    margin: 0px auto
 
     @media screen and (max-width: 667px)
       width: 100%

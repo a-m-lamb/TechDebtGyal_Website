@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on TechDebtGyal</title>
+    <link>//localhost:1313/tags/Programming/</link>
+    <description>Recent content in Programming on TechDebtGyal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/Programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Benefits of Programming in 2024</title>
+      <link>//localhost:1313/post/benefits-of-programming/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/benefits-of-programming/</guid>
+      <description>Programming is a valuable skill that can be used in a variety of industries. In 2024, the demand for programmers is expected to continue to grow, making it a great time to start learning how to code.&#xA;Here are some of the benefits of programming in 2024: High demand and good pay: Programmers are in high demand, and they can command high salaries. The median salary for a programmer in the United States is over $100,000 per year.</description>
+    </item>
+    <item>
+      <title> Mastering the Art of CSS: Demystifying Front-End Design</title>
+      <link>//localhost:1313/2023/08/mastering-art-of-css-demystifying-front.html</link>
+      <pubDate>Thu, 10 Aug 2023 08:09:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/08/mastering-art-of-css-demystifying-front.html</guid>
+      <description>![&amp;quot;Elevate Your Web Creations: CSS Mastery for Mesmerizing Front-End Design&amp;quot;](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhix0BzxYSVlGE823eEZ2m0csHz-d8oDf9OO4xbWP-xdHCNiPZobTFEmbBgGyOAojD7wgjUI-BJqwjzoTlxIEc6yaQPnlk5bD2aHSq16jz6DQfZQknLYEL0AvuFelOfMtlL8ndkORNFTLnOdB9byO2vp1zHJfGl4uRwZvEbhO3acMSHb9iEeEBM35lmb5yl/w640-h640/Simple%20Organic%20Blog%20Post%20Instagram%20Template%202.png &amp;quot;&amp;quot;Elevate Your Web Creations: CSS Mastery for Mesmerizing Front-End Design&amp;quot;&amp;quot;)&#xA;In the world of web development, HTML and JavaScript often steal the spotlight. HTML, with its structured tags, provides the foundation of web content, while JavaScript adds interactivity and dynamic behavior to websites. Yet, there&#39;s one crucial player that often remains in the shadows, silently shaping the visual appeal and layout of web pages - Cascading Style Sheets, or CSS.</description>
+    </item>
+    <item>
+      <title>Beginner&#39;s Guide: HTML, CSS, and JavaScript Tutorial for Building Web Pages</title>
+      <link>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</link>
+      <pubDate>Thu, 08 Jun 2023 14:12:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/06/beginners-guide-html-css-and-javascript.html</guid>
+      <description>In the modern, tech-savvy world we live in, having an understanding of HTML, CSS, and JavaScript is essential for crafting web pages or pursuing a career in web development. This tutorial offers a detailed overview of these core technologies, designed to help those with limited knowledge or experience in HTML. So, let&#39;s dive in and explore!&#xA;Installations: So personally, I prefer to customize my html components on my own personal server, so everyone isn&#39;t looking at each change I make on the web.</description>
+    </item>
+    <item>
+      <title>Competing with AI - What Steps to Take as Artificial Intelligence Advances</title>
+      <link>//localhost:1313/2023/05/competing-with-ai-what-steps-to-take-as.html</link>
+      <pubDate>Fri, 19 May 2023 12:44:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/05/competing-with-ai-what-steps-to-take-as.html</guid>
+      <description>Competing with AI - What Steps to Take as Artificial Intelligence Advances&#xD;No one needs to be reminded that artificial intelligence (AI) is growing increasingly powerful and intimidating. Companies such as Wendy&#39;s already want to use AI in place of humans to carry out certain tasks.&#xA;Eventually, this could lead to a massive recession in white-collar jobs, leaving many people asking how they can compete with something that never sleeps, never takes a break or requests a raise, and works around the clock.</description>
+    </item>
+    <item>
+      <title>Unlock the Power of Localstack: Testing Terraform Cloud Resources on Your Local Machine</title>
+      <link>//localhost:1313/2023/05/unlock-power-of-localstack-testing.html</link>
+      <pubDate>Sun, 07 May 2023 08:32:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/05/unlock-power-of-localstack-testing.html</guid>
+      <description>The idea of using Terraform to manage cloud infrastructure has gained popularity in the tech industry. It enables developers to use a single configuration language to describe and provision resources across multiple cloud providers -- a time-saving measure that makes it easier to support multiple regions and cloud environments from a single platform.&#xA;But while Terraform provides a robust solution for streamlining the process of setting up and managing cloud resources, testing components of the setup is often neglected.</description>
+    </item>
+    <item>
+      <title>A Step-by-Step Guide for Building a Bot with Go (Part 1)</title>
+      <link>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</link>
+      <pubDate>Wed, 03 May 2023 18:25:00 -0700</pubDate>
+      <guid>//localhost:1313/post/-a-step-by-step-guide-for-building-a-bot-with-go-part-1-/</guid>
+      <description>When I was just starting out in programming, I wanted to work on projects that were more stimulating. My approach to learning was to craft projects that made technology relevant and exciting for me. Reading books and taking courses will only get you so far; the rest is all self-driven. This is how bots and data scraping caught my attention. Programming became more than a job - it became an art form.</description>
+    </item>
+    <item>
+      <title> What is Function Programming? A Introductory Article to Help the Uninitiated Understand Functional Programming</title>
+      <link>//localhost:1313/2023/04/what-is-function-programming.html</link>
+      <pubDate>Tue, 25 Apr 2023 11:01:00 -0700</pubDate>
+      <guid>//localhost:1313/2023/04/what-is-function-programming.html</guid>
+      <description>At a recent tech meeting, the idea of functional programming was brought up- a concept that I had only a shallow understanding of.&#xA;&amp;quot;What&#39;s functional programming?&amp;quot; someone asked. No one wanted to expound on it, so another person timidly suggested, &amp;quot;I guess it means the program has no side effects?&amp;quot; - disregarding that applications written in languages such as Pascal or Scala still generate some kind of result.&#xA;It became obvious that most people in the group didn&#39;t have an extensive knowledge of functional programming.</description>
+    </item>
+    <item>
+      <title>Diving into the Dependency Forest with Golang</title>
+      <link>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</link>
+      <pubDate>Wed, 08 Mar 2023 06:50:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/03/diving-into-dependency-forest-with.html</guid>
+      <description>So, this is the first post of what I foresee to be an entire chapter of working with Go as it relates to remediating vulnerabilities. This particular post will focus on patching vulnerabilities related to Software Composition Analysis- an important task to perform regularly in order to avoid a lot of technical debt later on (Seriously, Handle it now!).&#xA;Programs are made up of numerous components--elements that can go unnoticed because many developers carelessly import dependencies without being aware of vulnerabilities that might exist within them.</description>
+    </item>
+    <item>
+      <title>Understanding Idempotency – A Newbies Guide to Secure Development</title>
+      <link>//localhost:1313/2023/02/understanding-idempotency-newbies-guide.html</link>
+      <pubDate>Fri, 24 Feb 2023 07:22:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/02/understanding-idempotency-newbies-guide.html</guid>
+      <description>The concept of idempotency will creep up regularly in your programming career, so it&#39;s essential to understand what it is and the significance. Plenty of programmers have passively heard the term--and may have even dropped it from time to time themselves--but many still have little to no idea as to what it means.&#xA;Idempotency encompasses a peculiar notion: no matter how many times something is repeated, the result is always the same.</description>
+    </item>
+  </channel>
+</rss>
