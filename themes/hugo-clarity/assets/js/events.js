@@ -68,16 +68,16 @@ const eventDic = [
     title: "Land Your Dream Job: A Masterclass in Job Hunting Success",
     description: "This immersive masterclass equips you with the winning strategies to navigate the modern job market and land the role you deserve.",
     date: new Date(2024, 2, 28),
-    rsvpLink: "https://example.com/rsvp/coding-workshop",
-    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE-OXdp-Aah1C_L5hKlk8KQHHSFHNHEZuoQEk9Rb5LEJncc0rgVXeX-AwLP0U7Zr79pIQdDShltnjWQghbojCb0ThjGFsv_J9CFsQc-KsqCQEmrSYf3g-FR0jMKjSrTWXykYIhrOuJNLQjYLK1yeBobKxyMnhZbRKjsaGmpvUX7xc3Xuk/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(7).png"
+    rsvpLink: "https://www.eventbrite.com/e/853650400327?aff=oddtdtcreator",
+    img: "./images/events/job_hunting.png"
   },
-  {
-    title: "Front-End Development: Build Your Portfolio with Blogger",
-    description: "Learn the basics of HTML, CSS, and JavaScript in this interactive workshop.",
-    date: new Date(2024, 3, 6), 
-    rsvpLink: "https://example.com/rsvp/coding-workshop",
-    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE-OXdp-Aah1C_L5hKlk8KQHHSFHNHEZuoQEk9Rb5LEJncc0rgVXeX-AwLP0U7Zr79pIQdDShltnjWQghbojCb0ThjGFsv_J9CFsQc-KsqCQEmrSYf3g-FR0jMKjSrTWXykYIhrOuJNLQjYLK1yeBobKxyMnhZbRKjsaGmpvUX7xc3Xuk/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(7).png"
-  },
+  // {
+  //   title: "Front-End Development: Build Your Portfolio with Blogger",
+  //   description: "Learn the basics of HTML, CSS, and JavaScript in this interactive workshop.",
+  //   date: new Date(2024, 3, 6), 
+  //   rsvpLink: "https://example.com/rsvp/coding-workshop",
+  //   img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE-OXdp-Aah1C_L5hKlk8KQHHSFHNHEZuoQEk9Rb5LEJncc0rgVXeX-AwLP0U7Zr79pIQdDShltnjWQghbojCb0ThjGFsv_J9CFsQc-KsqCQEmrSYf3g-FR0jMKjSrTWXykYIhrOuJNLQjYLK1yeBobKxyMnhZbRKjsaGmpvUX7xc3Xuk/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(7).png"
+  // },
 ];
 
 addEventListener("DOMContentLoaded", (ev) => {
