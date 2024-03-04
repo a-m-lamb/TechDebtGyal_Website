@@ -10,25 +10,10 @@ weight = -110
 
 # Submenus are done this way: parent -> identifier
 [[main]]
-identifier = "Links"
+url = "services/"
 name = "Services"
 weight = -108
-[[main]]
-name = "Marketing and Sales"
-parent = "Links"
-url = "#"
-[[main]]
-name = "Graphic Design"
-parent = "Links"
-url = "#"
-[[main]]
-name = "Web Development"
-parent = "Links"
-url = "#"
-[[main]]
-name = "Content Creation"
-parent = "Links"
-url = "#"
+
 
 [[main]]
 name = "About"
