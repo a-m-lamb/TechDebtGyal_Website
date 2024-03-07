@@ -18,7 +18,20 @@
 {{ if not (and (strings.HasPrefix .Page.Permalink $url) (strings.HasSuffix .Page.Permalink "/")) }}
 
 
-<header class="header">
+
+<div class="video_container">
+  <video style="position: relative;" class="header_vid" autoplay="" loop="" muted="" playsinline=""
+    data-wf-ignore="true" data-object-fit="cover">
+    <source src="./videos/header.ogv" type="video/ogg" data-wf-ignore="true">
+    <source src="./videos/header.mov" type="video/mp4" data-wf-ignore="true">
+    <source src="./videos/header.webm" type="video/webm" data-wf-ignore="true">
+    <source src="./videos/header.mp4" type="video/mp4" data-wf-ignore="true">
+  </video>
+  <h1>Your go-to technical marketing team</h1>
+  <a href="#header" class="button"> <i class="fas fa-hand-point-down"></i> Check Us Out!</a>
+
+</div>
+<header id="header"class="header">
 
   <div class="elements">
 
@@ -42,8 +55,8 @@
       display: flex;
       width: 100%;
       max-width: 1440px;
-      margin: 2% auto;
-    
+      margin-left: 5%;
+
 
       i {
         font-size: 200%;
@@ -51,34 +64,38 @@
         flex-grow: 1;
         /* margin-right: 3%; */
         cursor: pointer;
+
         @media screen and (max-width: 625px) {
           font-size: 100% !important;
         }
-        @media screen and (min-width: 700px) and(max-width: 1300px){
+
+        @media screen and (min-width: 700px) and(max-width: 1300px) {
           font-size: 100%;
           margin-left: 20% !important;
         }
       }
 
-      a{
+      a {
         margin-right: 10%;
 
-       @media screen and (min-width: 700px) and (max-width: 1300px) {
-        margin-right: 3% !important;
-        margin-top: 3% !important;
-        margin-bottom: 3% !important;
-        
-       }
+        @media screen and (min-width: 700px) and (max-width: 1300px) {
+          margin-right: 3% !important;
+          margin-top: 3% !important;
+          margin-bottom: 3% !important;
+
+        }
 
         @media screen and (max-width: 625px) {
           margin-right: 5% !important;
-        };
+        }
 
-        
+        ;
+
+
 
       }
 
-      i:hover{
+      i:hover {
         color: var(--highlight);
       }
 
@@ -108,7 +125,7 @@
 
   <div class="tech_debt_crew">
     <a href="mailto:info@techdebtcrew.com"><i class="fas fa-envelope"> info@techdebtcrew.com</i></a>
-    <a  href="https://discord.gg/RNPZT8zxtx"><i class="fab fa-discord"> Join the Crew</i></a>
+    <a href="https://discord.gg/RNPZT8zxtx"><i class="fab fa-discord"> Join the Crew</i></a>
 
 
     <!-- <div class="container">
@@ -156,6 +173,7 @@
 
 
     <div class="headline">
+      <img class="accent_img" src="./images/peach.png">
       <h1>Craft Your Brand Story. Elevate Your Business.
       </h1>
       <p>We're your one-stop shop for complete brand transformation. From captivating logos and web design to strategic
@@ -190,18 +208,18 @@
     <h1>🔐 Why Choose the Tech Debt Crew?</h3>
       <ul>
         <li><b class="highlight">
-            <h2>Technical SEO audit:</h2>
+            <h2 class="highlight_header">Technical SEO audit:</h2>
           </b> Learn from industry professionals with hands-on experience.</li>
         <li><b class="highlight">
-            <h2>Content creation:</h2>
+            <h2 class="highlight_header">Content creation:</h2>
           </b> Tackle practical challenges to enhance your problem-solving
           skills.</li>
         <li><b class="highlight">
-            <h2>Web development:</h2>
+            <h2 class="highlight_header">Web development:</h2>
           </b> Gain globally recognized certifications upon course completion.
         </li>
         <li><b class="highlight">
-            <h2>Graphic design:</h2>
+            <h2 class="highlight_header">Graphic design:</h2>
           </b> Engage in dynamic discussions and collaborate with peers.</li>
       </ul>
       <!-- <a href="#" class="button">Get Your Free Quote Today!</a> -->
@@ -220,7 +238,7 @@
 <div class="purpose">
   <div class="text">
     <!-- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibsvMmIxZ8pPkqv_Ih03p0P8NqE2PnyCv0H7b7X4u9i_AH9gxeyHWAHkSgsBlSu4L5XG-T4kvLkQKjZ5Y-WI-yRQE0MEt5A1rCUaJPiispn7h-_3lvA_g2KEiTm2KD3pM8PGNBhL-rWCrG4oDxbo2bxp3SuCtGTvnNUhnC4QlyAhZRppU/s1600/Beige%20Business%20Brand%20Color%20Wheel%20Palette%20Facebook%20Post%20(6).png"> -->
-    <h1 class=""><a>Level Up Tech: A Solutions-Focused Technical Marketing Service Provider </a></h1>
+    <h1 style="color: yellow;"><a>Level Up Tech: A Solutions-Focused Technical Marketing Service Provider </a></h1>
     <h5>At Tech Debt Crew, our mission is to revolutionize the way businesses approach marketing by integrating advanced
       technology and innovative strategies. We strive to bridge the gap between traditional marketing and the digital
       frontier, ensuring our clients not only keep pace but lead the charge in their respective industries. Our
@@ -243,7 +261,7 @@
 </div>
 
 
-<div id="free_quote">
+<div id="free_quote" style="margin-top: -20%;">
 
   <div class="container" style="background-image: url('./images/cyber-bae1.png');">
 
@@ -286,9 +304,10 @@
 
 </div>
 
+<img class="accent_img" src="./images/footer_accent.png">
 
 <div class="sponsors">
-  <h3>TechDebtCrew is Proudly Sponsored By:</h3>
+  <h1>TechDebtCrew is Proudly Sponsored By:</h1>
   <div id="sponsor_list">
 
   </div>
@@ -301,7 +320,6 @@
 
 <div class="grid-inverse wrap content">
   <div>
-    <h2><a>Blog</a></h2>
     <ul class="posts" id="posts">
       {{- range (.Paginate $pages).Pages }}
       {{ partial "excerpt" . }}
