@@ -162,7 +162,8 @@ addEventListener("DOMContentLoaded", (ev) => {
       eventCard.innerHTML = `
       <div class="date"><h3>${monthAbbr}</h3><h1>${event.date.getDate()}</h1></div>
       <div class="event-description">
-        <picture><img loading="lazy" src=${event.img}></picture>
+
+        <picture style="background:black"><img loading="lazy" src=${event.img}></picture>
         <div class="text">
           <h4 class="post_link"><a href="#">${event.title}</a></h4>
           <p>${event.description}</p>
