@@ -83,21 +83,16 @@ h1, h2, h3, h4, h5, h6
       width: 100% !important
 #free_quote
 
-  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
   width: 100%
   height: auto
   display: flex
-  // background: var(--table-bg)
   padding: 0
-  // margin-top: 5%
   overflow: hidden
   .container
     width: 50%
     background-size: contain
     background-repeat: no-repeat
     background-color: transparent
-
-    // margin-right: 3%
     background-position: center
     background-image: url("../images/promotion.png")
     object-fit: cover
@@ -195,6 +190,7 @@ h1, h2, h3, h4, h5, h6
       margin-top: -10%
     h1
       margin-bottom: -10%
+
 @keyframes blink 
   0% { opacity: 1 }
   50%  { opacity: 0 }
@@ -203,7 +199,10 @@ h1, h2, h3, h4, h5, h6
 .video_container
   position: relative
   text-align: center
+  width: 100vw
   height: 100vh
+ 
+  background-color: black
   h1
     @media screen and (max-width: 690px)
       font-size: 200%
@@ -226,8 +225,15 @@ h1, h2, h3, h4, h5, h6
     justify-content: center
     text-transform: uppercase
   video
-    height: 100%
     object-fit: cover
+    @media screen and (min-width: 1440px)
+      object-fit: contain
+    height: 100vh
+    
+    @media screen and (min-width: 1440px)
+      max-height: 1440px
+    
+
   i
     margin-right: 3%
     animation: blink 1s infinite
@@ -278,7 +284,10 @@ body
   color: var(--text)
 #events-container
   width: 75%
-  margin-left: 2%
+  margin: 0px auto
+  
+  max-width: 1540px
+  left: 100
   max-height: 800px
   @media screen and(max-width: 625px)
     width: 95%
@@ -288,14 +297,16 @@ body
   .image
     width: 120%
     margin-top: -20%
-    // float: left
     position: relative
     left: 50%
+    @media screen and (min-width: 1540)
+      left: 65%
     z-index: -99
     @media screen and(max-width: 629px)
       display: none
   .event-card
     display: flex
+    max-width: 1440px
 
     margin: 2%
     background-color: rgba(29, 22, 22, 0.8)
@@ -314,6 +325,7 @@ body
     picture
       width: 40%
       margin-right: 2%
+      max-width: 200px
     
     .button
       height: 2%
@@ -344,7 +356,6 @@ body
 
 .header_vid
   width: 100vw
-  max-width: 1440px
   margin: 0% auto
   border-bottom: 3px solid var(--text)
 
@@ -620,6 +631,7 @@ body
 .purpose
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9)
   margin-top: 5%
+  max-width: 1540px
   padding: 10px
   text-align: center
   background-color: var(--table-bg)
