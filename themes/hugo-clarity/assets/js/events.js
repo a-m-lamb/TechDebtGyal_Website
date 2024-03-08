@@ -144,6 +144,30 @@ addEventListener("DOMContentLoaded", (ev) => {
   let currentPage = 1;
   const eventsPerPage = 2;
 
+  navbar = document.getElementsByClassName("nav_header")
+
+  Array.from(navbar).forEach(element => {
+    if (window.scrollY === 0 && (window.location.pathname === "/")) {
+      element.style.backgroundColor = "transparent";
+      element.style.marginTop = "5%";
+    } else {
+
+      element.style.backgroundColor = "#30152E";
+    }
+
+    document.addEventListener('scroll', () => {
+      if (window.scrollY === 0 && (window.location.pathname === "/")) {
+        element.style.backgroundColor = "transparent";
+        element.style.marginTop = "5%";
+      }
+      else {
+        element.style.backgroundColor = "#30152E";
+        element.style.marginTop = "0%";
+      }
+    });
+
+  });
+
   // Create event card elements for the current page
   function displayPage(pageNumber) {
     eventsContainer.innerHTML = ""; // Clear the container for new events
