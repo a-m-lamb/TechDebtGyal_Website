@@ -1,7 +1,7 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "" # Include trailing slash
-# title = "Cyber Bae"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
+# title = "Tech Debt Crew"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 # canonifyurls = true
 disqusShortname = ""
@@ -26,3 +26,4 @@ home = ["HTML", "RSS", "JSON"]
 
 [param]
 staticDir = "static"
+Description = "Discover how Tech Debt Crew bridges the gap between technology and marketing to help businesses thrive in the digital era. Our comprehensive services encompass brand development, digital strategy, creative solutions, and technology integration. With a commitment to expertise, innovation, customization, and delivering measurable results, we guide businesses through every step of their digital journey. Contact us today to revolutionize your marketing strategies and thrive in the digital age."

@@ -1,6 +1,6 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "Tech Debt Crew: Bridging Technology and Marketing for Business Success"
+description = "Explore Tech Debt Crew's mission to empower brands in the digital era through cutting-edge marketing strategies seamlessly integrated with technological advancements. Founded by digital marketing experts and tech enthusiasts, we offer comprehensive services encompassing brand development, digital strategy, creative solutions, and technology integration. With a commitment to expertise, innovation, customization, and delivering measurable results, we guide businesses through every step of their digital journey. Contact us today to revolutionize your marketing strategies and thrive in the digital age. "
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Adriana Lamb"

@@ -1,6 +1,6 @@
 +++
 title = "Blog"
-description = "Our Website's blog"
+description = "Tech Debt Crew Blog"
 paginate = 10
 +++
 
