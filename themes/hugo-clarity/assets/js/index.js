@@ -379,7 +379,6 @@ function fileClosure(){
       }
     });
   })();
-
   function isMobileDevice() {
     const agent = navigator.userAgent.toLowerCase();
     const isMobile = agent.includes('android') || agent.includes('iphone');
