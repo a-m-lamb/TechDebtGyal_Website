@@ -2,7 +2,7 @@
 author = "Adriana Lamb"
 title = "The Benefits of Programming in 2024"
 date = "2024-01-13"
-description = "Sample article showcasing why programming is still beneficial in 2024."
+description = "The Benefits of Programming in 2024"
 featured = true
 tags = [
     "programming", 
