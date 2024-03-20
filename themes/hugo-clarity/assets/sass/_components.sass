@@ -207,9 +207,10 @@ h1, h2, h3, h4, h5, h6
     @media screen and (max-width: 690px)
       font-size: 200%
       top: 60%
+      
     text-align: center
     top: 50%
-    width: fit-content
+    width: 80%
     position: absolute
     margin: 0px auto
     left: 50%
@@ -241,7 +242,7 @@ h1, h2, h3, h4, h5, h6
 
     @media screen and (max-width: 690px)
       font-size: 100%
-      top: 90%
+      top: 85%
     position: absolute
     width: fit-content
     top: 70%
@@ -288,9 +289,15 @@ body
   
   max-width: 1540px
   left: 100
-  max-height: 800px
+
+  .ml-embedded 
+    padding-bottom: 10%
+    margin-top: -15%
+    
   @media screen and(max-width: 625px)
     width: 95%
+    .ml-embedded 
+      margin-top: 10%
 
   button
     bottom: 100%
@@ -310,6 +317,8 @@ body
 
     margin: 2%
     background-color: rgba(29, 22, 22, 0.8)
+
+
     @media screen and(max-width: 625px)
       margin: 0px auto
       width: 90%
@@ -484,6 +493,7 @@ body
     background-color: rgba($light, 0.05)
     border-radius: 0.25rem
   &, &_body
+    max-width: 100vw 
   &_icon
     width: 0.7rem
     margin-left: 0.33rem
@@ -587,6 +597,8 @@ body
     img
       max-width: 15vw
       margin: 0
+      @media screen and(max-width: 690px)
+        display: none
     @media screen and (min-width: $mobile-menu-breakpoint)
       padding-left: 0
       // margin-left: -16rem

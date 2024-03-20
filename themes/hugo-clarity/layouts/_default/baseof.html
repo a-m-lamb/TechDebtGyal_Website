@@ -2,40 +2,41 @@
 {{- $p := .Params }}
 {{- $codeBlockConfig := partial "func/getCodeBlockSettings" . }}
 <!DOCTYPE html>
-<html
-  lang="{{ .Lang }}"
-  data-figures="{{ $p.figurePositionShow }}"
-  {{ if .IsPage }}
-    class="page"
-  {{ else if .IsHome }}
-    class="home"
-  {{ end }}
-  {{ with $s.enforceLightMode }}
-    data-mode="lit"
-  {{ end }}
-  {{ with $s.enforceDarkMode }}
-    data-mode="dim"
-  {{ end -}}
->
-  <head>
-    {{- partial "head" . }}
-    {{- partial "hooks/head-end" . }}
-  </head>
-  <body
-    data-code="{{ $codeBlockConfig.max }}"
-    data-lines="{{ $codeBlockConfig.lines }}"
-    id="documentTop"
-    data-lang="{{ .Lang }}"
-  >
-    {{- partialCached "scripts/google/tag-manager" (dict "noscript" true) }}
-    {{- partial "header" . }}
-    <main>
-      {{- block "main" . }}{{ end }}
-    </main>
+<html lang="{{ .Lang }}" data-figures="{{ $p.figurePositionShow }}" {{ if .IsPage }} class="page" {{ else if .IsHome }}
+  class="home" {{ end }} {{ with $s.enforceLightMode }} data-mode="lit" {{ end }} {{ with $s.enforceDarkMode }}
+  data-mode="dim" {{ end -}}>
 
-    {{- partialCached "icons" . }}
-    {{- partialCached "footer" . }}
-    {{- partialCached "scripts/index" . }}
-    {{- partialCached "hooks/body-end" . }}
-  </body>
+<head>
+  {{- partial "head" . }}
+  {{- partial "hooks/head-end" . }}
+
+  <!-- MailerLite Universal -->
+  <script>
+    (function (w, d, e, u, f, l, n) {
+      w[f] = w[f] || function () {
+        (w[f].q = w[f].q || [])
+        .push(arguments);
+      }, l = d.createElement(e), l.async = 1, l.src = u,
+      n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+    })
+      (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+    ml('account', '878902');
+  </script>
+  <!-- End MailerLite Universal -->
+</head>
+
+<body data-code="{{ $codeBlockConfig.max }}" data-lines="{{ $codeBlockConfig.lines }}" id="documentTop"
+  data-lang="{{ .Lang }}">
+  {{- partialCached "scripts/google/tag-manager" (dict "noscript" true) }}
+  {{- partial "header" . }}
+  <main>
+    {{- block "main" . }}{{ end }}
+  </main>
+
+  {{- partialCached "icons" . }}
+  {{- partialCached "footer" . }}
+  {{- partialCached "scripts/index" . }}
+  {{- partialCached "hooks/body-end" . }}
+</body>
+
 </html>
