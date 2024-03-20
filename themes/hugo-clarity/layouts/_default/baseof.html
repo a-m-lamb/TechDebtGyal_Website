@@ -11,13 +11,48 @@
   {{- partial "hooks/head-end" . }}
 
   <!-- MailerLite Universal -->
+  <style>
+    /* Define scrollbar track color */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+/* Define scrollbar thumb color */
+::-webkit-scrollbar-thumb {
+  background-color: goldenrod; /* color of the thumb */
+  border-radius: 10px; /* roundness of the thumb */
+}
+
+/* Define scrollbar track color for Firefox */
+/* You can customize these colors to achieve the desired effect */
+/* In this example, the scrollbar has two colors: purple and blue */
+/* The width and height of the gradient are set to 100% to cover the whole scrollbar */
+/* You can adjust the colors and gradients as needed */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #e22bb7, #3d0082);
+}
+
+/* Define scrollbar thumb color for Firefox */
+/* Same as for the thumb, you can customize the colors and styles */
+::-moz-scrollbar-thumb {
+  background-color: var(--table-bg);
+  border-radius: 10px;
+}
+
+/* Hide scrollbar arrows */
+/* You can remove this if you want to show the arrows */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+  </style>
   <script>
     (function (w, d, e, u, f, l, n) {
       w[f] = w[f] || function () {
         (w[f].q = w[f].q || [])
-        .push(arguments);
+          .push(arguments);
       }, l = d.createElement(e), l.async = 1, l.src = u,
-      n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+        n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
     })
       (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
     ml('account', '878902');
