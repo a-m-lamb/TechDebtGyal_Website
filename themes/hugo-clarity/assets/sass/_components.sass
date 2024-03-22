@@ -273,7 +273,7 @@ body
   overflow-x: hidden
   background-color: #fff
   background-blend-mode: luminosity
-  background: rgba(0,0,0,0) url('../images/background2.png')
+  background: rgba(0,0,0,0) url('../images/background.jpg')
   background-position: center
   background-size: cover
   background-attachment: fixed
@@ -440,11 +440,12 @@ body
         width: 100% !important
 
     @media (max-width:629px)
-      width: 90%
+      width: 100%
       display: block
+      
 
       .text
-        width: 100%
+        width: 95% !important
         margin: 0px auto !important
       img
         display: none
@@ -651,7 +652,7 @@ body
   margin: 0px auto
   margin-bottom: 2%
   @media screen and (max-width: 629px)
-    width: 100%
+    width: 100vw
     .text
       width: 90%
   h3
@@ -731,7 +732,7 @@ body
   text-transform: uppercase
   border: 1px solid $theme
   border-radius: 1.5rem
-  font-size: 0.9rem
+  font-size: 1.5rem
   align-items: center
   user-select: none
   &_back

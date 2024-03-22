@@ -66,7 +66,7 @@ const eventDic = [
   {
     title: "Land Your Dream Job: A Masterclass in Job Hunting Success",
     description: "This immersive masterclass equips you with the winning strategies to navigate the modern job market and land the role you deserve.",
-    date: new Date(2024, 2, 28),
+    date: new Date(2024, 2, 27),
     rsvpLink: "https://www.eventbrite.com/e/853650400327?aff=oddtdtcreator",
     img: "./images/events/job_hunting.png"
   },
