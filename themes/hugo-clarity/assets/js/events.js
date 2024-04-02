@@ -101,7 +101,20 @@ addEventListener("DOMContentLoaded", (ev) => {
   //perks
 
   const perkContainer = document.getElementById("perks")
+  // JavaScript
+  
 
+  window.addEventListener('scroll', function () {
+    const fullPageHeader = document.getElementById('full-page-header').offsetHeight;
+
+    if (window.scrollY > fullPageHeader) {
+      document.styleSheets[0].insertRule('::-webkit-scrollbar { display: block; }', 0);
+
+    } else {
+      document.styleSheets[0].insertRule('::-webkit-scrollbar { display: block; }', 0);
+
+    }
+  })
 
   function isSingleDigit(input) {
     // console.log(input)
