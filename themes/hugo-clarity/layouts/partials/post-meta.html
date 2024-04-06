@@ -6,7 +6,7 @@
 {{- $scratch.Set "writeSeparator" false }}
 {{- if $showPostMeta }}
 {{- if ne .Params.Title "About"}}
-  <p> Written By: <a>{{ .Params.author }}</a></p>
+  <p id="author"> Written By: <a>{{ .Params.author }}</a></p>
 {{ end }}
   <div class="post_meta">
 {{- end }}
