@@ -49,13 +49,12 @@ h1, h2, h3, h4, h5, h6
 @media (max-width:629px)
   .perks
     .button
-      margin: 0px 0% 0% !important
+      margin: 3% 3% 3% !important
 
   #perks
     display: block !important
     width: 100% !important
-    margin-bottom: 3%
-    
+
 
     .card
       border-right: none !important
@@ -91,6 +90,8 @@ h5, p
   display: flex
   padding: 0
   overflow: hidden
+  .mobile_image
+    display: none
   .container
     width: 50%
     background-size: contain
@@ -104,6 +105,11 @@ h5, p
 
   @media screen and (max-width: 695px)
     display: block
+    .mobile_image 
+      display: block
+      width: 100%
+    .text
+      width: 100%
   .text
     width: 50%
     object-fit: cover
@@ -682,6 +688,8 @@ body
     display: block
     .text
       padding-block: 5%
+      width: 90% !important
+      margin: 0px auto
     video
       width: 100%
 
@@ -690,7 +698,7 @@ body
     margin-bottom: 4%
     width: 45%
     h2
-      color: rgb(66, 110, 66)
+      color: rgb(110, 187, 110)
   .button
     margin: 4% auto 4%
   video
