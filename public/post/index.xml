@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Jan 2024 09:40:00 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 11:56:00 -0800</lastBuildDate>
     <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Bot...</title>
+      <link>//localhost:1313/2023/11/navigating-tech-job-market-strategies.html</link>
+      <pubDate>Tue, 05 Mar 2024 11:56:00 -0800</pubDate>
+      <guid>//localhost:1313/2023/11/navigating-tech-job-market-strategies.html</guid>
+      <description>Python holds a special place in my programming arsenal. Its simplicity and ease of use make it an ideal choice for a wide range of projects. While I wouldn&#39;t call myself a Python master, I&#39;ve found it incredibly handy for quickly scripting tasks and building bots on the go.&#xA;In this tutorial, I&#39;ll walk you through creating a Python bot using Selenium. If you&#39;re unfamiliar, Selenium is a powerful browser automation tool that&#39;s perfect for web scraping and testing.</description>
+    </item>
     <item>
       <title>Why a Strong Email Signature is Vital in Today&#39;s Competitive Job Market</title>
       <link>//localhost:1313/2024/01/why-strong-email-signature-is-vital-in.html</link>
