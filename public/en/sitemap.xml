@@ -2,11 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/Bot-Development/</loc>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/2023/11/navigating-tech-job-market-strategies.html</loc>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/post/</loc>
-    <lastmod>2024-01-22T09:40:00-08:00</lastmod>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/Programming/</loc>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/Python/</loc>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="//localhost:1313/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-01-22T09:40:00-08:00</lastmod>
+    <lastmod>2024-03-05T11:56:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -40,9 +65,6 @@
     <loc>//localhost:1313/series/Job-Search-Bootcamp/</loc>
     <lastmod>2024-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/Programming/</loc>
-    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/categories/programming/</loc>
     <lastmod>2024-01-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,19 +79,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="//localhost:1313/series/"
-                />
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-01-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="//localhost:1313/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/post/benefits-of-programming/</loc>
@@ -197,8 +206,6 @@
   </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/new/</loc>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
   </url><url>
