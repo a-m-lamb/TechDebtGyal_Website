@@ -2,8 +2,9 @@
 title: 'Introduction to Python: Build Your First Bot With Selenium'
 date: 2024-03-05T11:56:00.000-08:00
 draft: false
-url: /2023/11/navigating-tech-job-market-strategies.html
+url: /2023/11/introduction-to-python
 author: Adriana Lamb
+thumbnail: "/images/career.png"
 tags: 
 - Programming
 - Python
@@ -35,8 +36,10 @@ Before we start coding, here's what you'll need:
 
 5. Basic knowledge of Python.
 
+![alt text](/images/career.png)
 
-Let’s also take not of the versions of this software that I’ve been utilizing. 
+
+Let’s also take note of the versions of this software that I’ve been utilizing. 
 
 * Python 3.12.3​
 * pip 24.0
@@ -82,6 +85,8 @@ driver.maximize_window()
 ```
 
 Be sure to add your unzipped driver file in the root of your project while also ensuring you’re utilizing the driver that corresponds with both the browser type (e.g.: Firefox or Chrome) and the version of the browser. If the versions don’t match, the error in the command prompt will point you in the right direction. 
+
+[![](./bundle/building.png)
 
 
 ## Scraping Articles
